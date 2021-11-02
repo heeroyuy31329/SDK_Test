@@ -1,0 +1,11 @@
+framework module SDKTest2 {
+  umbrella header "SDKTest2.h"
+
+  export *
+  module * { export * }
+}
+
+module SDKTest2.Swift {
+    header "SDKTest2-Swift.h"
+    requires objc
+}
